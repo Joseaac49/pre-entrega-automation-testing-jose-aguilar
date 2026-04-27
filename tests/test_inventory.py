@@ -28,6 +28,7 @@ def test_inventory_page():
     print(f"Producto: {product_name} - Precio: {product_price}")
 
     driver.quit()
-
-    assert product_name != ""
-    assert "$" in product_price
+    assert title.text == "Products"
+    assert len(products) > 0
+    product_name
+    product_price

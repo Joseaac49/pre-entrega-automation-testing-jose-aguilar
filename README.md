@@ -1,6 +1,6 @@
 # QA Automation - Saucedemo
 
-## 📌 Descripción
+## Descripción
 
 Proyecto de automatización de pruebas funcionales sobre la aplicación web https://www.saucedemo.com utilizando Selenium WebDriver y Pytest.
 
@@ -8,7 +8,7 @@ El objetivo es validar flujos principales de usuario como login, navegación de 
 
 ---
 
-## 🧰 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 * Python
 * Selenium WebDriver
@@ -18,20 +18,20 @@ El objetivo es validar flujos principales de usuario como login, navegación de 
 
 ---
 
-## 🧪 Casos de prueba automatizados
+## Casos de prueba automatizados
 
-### 🔐 Login
+### Login
 
 * Login exitoso con credenciales válidas
 * Validación de redirección a inventory
 
-### 📦 Inventario
+### Inventario
 
 * Validación del título "Products"
 * Verificación de productos visibles
 * Obtención de nombre y precio del primer producto
 
-### 🛒 Carrito
+### Carrito
 
 * Agregado de producto al carrito
 * Validación del contador
@@ -40,7 +40,7 @@ El objetivo es validar flujos principales de usuario como login, navegación de 
 
 ---
 
-## ⚙️ Instalación
+## Instalación
 
 ```bash
 pip install -r requirements.txt
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Ejecución de tests
+## Ejecución de tests
 
 ```bash
 pytest
@@ -56,7 +56,7 @@ pytest
 
 ---
 
-## 📊 Generar reporte HTML
+## Generar reporte HTML
 
 ```bash
 pytest -v --html=reports/reporte.html
@@ -64,7 +64,7 @@ pytest -v --html=reports/reporte.html
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 tests/
@@ -73,7 +73,6 @@ reports/
 ```
 
 ---
-
-## 💡 Autor
+## Autor
 
 Jose Aguilar
